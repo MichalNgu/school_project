@@ -2,4 +2,35 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        
+body {
+    font-family: 'Inter', sans-serif;
+}
+        
+.hero-gradient {
+    background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+}
+        
+.card-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+        
+.card-hover:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(220, 38, 38, 0.3);
+}
+        
+.tech-card {
+    background: linear-gradient(135deg, #2d2d2d 0%, #1a1a1a 100%);
+}
+        
+.nav-link {
+    transition: color 0.3s ease;
+}
+        
+.nav-link:hover {
+    color: #dc2626;
+}
