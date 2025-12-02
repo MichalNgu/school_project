@@ -9,29 +9,27 @@
 </head>
 <body class="bg-gray-900 text-gray-100">
     <!-- Navigation -->
-    <nav class="fixed w-full bg-black bg-opacity-95 z-50 shadow-lg">
+    <nav class="fixed w-full bg-black bg-opacity-95 z-50 shadow-lg nav">
         <div class="container mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
-                <div class="flex items-center space-x-2">
-                    <svg class="w-10 h-10 text-red-600" fill="currentColor" viewBox="0 0 24 24">
-                        <circle cx="6" cy="12" r="4"/>
-                        <circle cx="18" cy="12" r="4"/>
-                        <path d="M10 12h4"/>
-                    </svg>
-                    <span class="text-2xl font-bold">AUDI</span>
+                <div class="flex items-center space-x-2 brand">
+                    <img src="../img/audi.png" alt="Audi logo" class="logo-img" />
                 </div>
-                <div class="hidden md:flex space-x-8">
-                    <a href="#o-znacce" class="nav-link">O značce</a>
-                    <a href="#modely" class="nav-link">Modelová řada</a>
-                    <a href="#technologie" class="nav-link">Technologie</a>
-                    <a href="#nabidka" class="nav-link">Aktuální nabídka</a>
-                    <a href="#kontakt" class="nav-link">Kontakt</a>
-                </div>
-                <button class="md:hidden text-white">
+                <div class="flex items-center space-x-4 header-actions">
+                    <div class="hidden md:flex space-x-8 nav-links">
+                        <a href="#aktuality" class="nav-link">Aktuality</a>
+                        <a href="#o-znacce" class="nav-link">O značce</a>
+                        <a href="#modely" class="nav-link">Modelová řada</a>
+                        <a href="#technologie" class="nav-link">Technologie</a>
+                        <a href="#nabidka" class="nav-link">Aktuální nabídka</a>
+                        <a href="#kontakt" class="nav-link">Kontakt</a>
+                    </div>
+                    <button class="md:hidden text-white mobile-toggle">
                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
                     </svg>
-                </button>
+                    </button>
+                </div>
             </div>
         </div>
     </nav>
@@ -45,9 +43,7 @@
             <p class="text-xl md:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto">
                 Objevte svět prémiových automobilů Audi. Inovace, výkon a elegance v každém detailu.
             </p>
-            <a href="#nabidka" class="inline-block bg-red-600 hover:bg-red-700 text-white font-semibold px-8 py-4 rounded-lg transition duration-300 shadow-lg">
-                Prozkoumejte naši nabídku
-            </a>
+            <a href="#nabidka" class="inline-block accent-btn transition duration-300 shadow-lg">Prozkoumejte naši nabídku</a>
         </div>
     </section>
 
@@ -109,113 +105,20 @@
     </section>
 
     <!-- Modelová řada -->
-    <section id="modely" class="py-20 px-6 bg-gray-900">
-        <div class="container mx-auto max-w-6xl">
-            <h2 class="text-4xl md:text-5xl font-bold mb-4 text-center">Modelová <span class="text-red-600">řada</span></h2>
-            <p class="text-center text-gray-400 mb-12 max-w-2xl mx-auto">
-                Kompletní portfolio vozů Audi od kompaktních sedanů po luxusní SUV a elektrické modely
-            </p>
-            
-            <div id="models-container" class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Modely budou načteny dynamicky -->
-                <div class="bg-gray-800 rounded-lg overflow-hidden shadow-xl card-hover">
-                    <div class="h-48 bg-gray-700 flex items-center justify-center">
-                        <span class="text-6xl">🚗</span>
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-2xl font-bold mb-2">Audi A3</h3>
-                        <p class="text-gray-400 mb-4">Kompaktní prémiový sedan s moderním designem a pokročilými technologiemi.</p>
-                        <div class="flex justify-between items-center">
-                            <span class="text-red-600 font-semibold">od 799 000 Kč</span>
-                            <button class="text-sm bg-red-600 hover:bg-red-700 px-4 py-2 rounded transition">
-                                Zjistit více
-                            </button>
-                        </div>
-                    </div>
-                </div>
+<section id="modely" class="py-20 px-6 bg-gray-900">
+  <div class="container mx-auto max-w-6xl">
+    <h2 class="text-4xl md:text-5xl font-bold mb-4 text-center">
+      Modelová <span class="text-red-600">řada</span>
+    </h2>
+    <p class="text-center text-gray-400 mb-12 max-w-2xl mx-auto">
+      Kompletní portfolio vozů Audi od kompaktních sedanů po luxusní SUV a elektrické modely
+    </p>
 
-                <div class="bg-gray-800 rounded-lg overflow-hidden shadow-xl card-hover">
-                    <div class="h-48 bg-gray-700 flex items-center justify-center">
-                        <span class="text-6xl">🚙</span>
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-2xl font-bold mb-2">Audi A4</h3>
-                        <p class="text-gray-400 mb-4">Elegantní sedan střední třídy spojující výkon, komfort a technologie.</p>
-                        <div class="flex justify-between items-center">
-                            <span class="text-red-600 font-semibold">od 999 000 Kč</span>
-                            <button class="text-sm bg-red-600 hover:bg-red-700 px-4 py-2 rounded transition">
-                                Zjistit více
-                            </button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="bg-gray-800 rounded-lg overflow-hidden shadow-xl card-hover">
-                    <div class="h-48 bg-gray-700 flex items-center justify-center">
-                        <span class="text-6xl">🚘</span>
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-2xl font-bold mb-2">Audi A6</h3>
-                        <p class="text-gray-400 mb-4">Luxusní sedan vyšší třídy s nejmodernějšími asistenčními systémy.</p>
-                        <div class="flex justify-between items-center">
-                            <span class="text-red-600 font-semibold">od 1 399 000 Kč</span>
-                            <button class="text-sm bg-red-600 hover:bg-red-700 px-4 py-2 rounded transition">
-                                Zjistit více
-                            </button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="bg-gray-800 rounded-lg overflow-hidden shadow-xl card-hover">
-                    <div class="h-48 bg-gray-700 flex items-center justify-center">
-                        <span class="text-6xl">🚐</span>
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-2xl font-bold mb-2">Audi Q7</h3>
-                        <p class="text-gray-400 mb-4">Prostorné luxusní SUV s pohonem quattro a až 7 místy k sezení.</p>
-                        <div class="flex justify-between items-center">
-                            <span class="text-red-600 font-semibold">od 1 799 000 Kč</span>
-                            <button class="text-sm bg-red-600 hover:bg-red-700 px-4 py-2 rounded transition">
-                                Zjistit více
-                            </button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="bg-gray-800 rounded-lg overflow-hidden shadow-xl card-hover">
-                    <div class="h-48 bg-gray-700 flex items-center justify-center">
-                        <span class="text-6xl">⚡</span>
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-2xl font-bold mb-2">Audi e-tron GT</h3>
-                        <p class="text-gray-400 mb-4">Plně elektrický sportovní sedan s výkonem až 646 koní a dojezdem 488 km.</p>
-                        <div class="flex justify-between items-center">
-                            <span class="text-red-600 font-semibold">od 2 599 000 Kč</span>
-                            <button class="text-sm bg-red-600 hover:bg-red-700 px-4 py-2 rounded transition">
-                                Zjistit více
-                            </button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="bg-gray-800 rounded-lg overflow-hidden shadow-xl card-hover">
-                    <div class="h-48 bg-gray-700 flex items-center justify-center">
-                        <span class="text-6xl">🏎️</span>
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-2xl font-bold mb-2">Audi RS6 Avant</h3>
-                        <p class="text-gray-400 mb-4">Sportovní kombi s výkonem 600 koní a zrychlením 0-100 km/h za 3,6 s.</p>
-                        <div class="flex justify-between items-center">
-                            <span class="text-red-600 font-semibold">od 3 299 000 Kč</span>
-                            <button class="text-sm bg-red-600 hover:bg-red-700 px-4 py-2 rounded transition">
-                                Zjistit více
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <div id="models-container" class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- Modely se načtou dynamicky pomocí JS -->
+    </div>
+  </div>
+</section>
 
     <!-- Technologie -->
     <section id="technologie" class="py-20 px-6 bg-gray-800">
@@ -330,7 +233,7 @@
                                 <p class="text-gray-400 text-sm">Cena</p>
                                 <p class="text-3xl font-bold text-red-600">1 149 000 Kč</p>
                             </div>
-                            <button class="bg-red-600 hover:bg-red-700 px-6 py-3 rounded-lg font-semibold transition">
+                            <button class="accent-btn px-6 py-3 rounded-lg font-semibold transition">
                                 Objednat testovací jízdu
                             </button>
                         </div>
@@ -372,7 +275,7 @@
                                 <p class="text-gray-400 text-sm">Cena</p>
                                 <p class="text-3xl font-bold text-red-600">1 649 000 Kč</p>
                             </div>
-                            <button class="bg-red-600 hover:bg-red-700 px-6 py-3 rounded-lg font-semibold transition">
+                            <button class="accent-btn px-6 py-3 rounded-lg font-semibold transition">
                                 Objednat testovací jízdu
                             </button>
                         </div>
@@ -451,7 +354,7 @@
                                   class="w-full p-3 rounded bg-gray-800 border border-gray-700 focus:outline-none focus:border-red-600"></textarea>
                     </div>
 
-                    <button class="w-full bg-red-600 hover:bg-red-700 text-white font-semibold py-3 rounded-lg transition">
+                    <button class="w-full accent-btn font-semibold py-3 rounded-lg transition">
                         Odeslat zprávu
                     </button>
                 </form>
@@ -466,5 +369,11 @@
     </footer>
 
     <script type="module" src="api.js"></script>
+    <script src="main.js"></script>
+    <script src="car.js"></script>
 </body>
 </html>
+
+<!-- 
+py -3 -m http.server 5500
+-->
