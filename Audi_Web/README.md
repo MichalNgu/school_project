@@ -22,7 +22,7 @@ Cílem projektu je vytvořit moderní, přehledný a plně responzivní web pro 
 
 ## 📂 Obsahové sekce
 1.  **O značce Audi** – Historie, filozofie "Náskok díky technice".
-2.  **Aktuality** - zobrazení aktualních věcí v oblasti Audi.
+2.  **Aktuality** - zobrazení aktualních novinek v oblasti Audi.
 3.  **Modelová řada** – Přehled vozů (A3, A4, A6, Q7, e-tron atd.) načítaný z JSON.
 4.  **Technologie** – Detailní popis systémů quattro, Audi AI a bezpečnostních prvků.
 5.  **Aktuální nabídka** – Interaktivní karty vozů s parametry a fotografiemi.
