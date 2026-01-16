@@ -1,10 +1,10 @@
+# Tohle je upravený readme po dokončení projektu 
 # Školní projekt: Webová prezentace Audi
 
 Tento projekt je moderní webová aplikace zaměřená na prezentaci vybraných modelů automobilů značky **Audi**. Web je koncipován jako interaktivní "one-page" aplikace postavená na kompletním JavaScriptovém stacku.
 
 ## 👤 Autor
 * **Žák:** Michal Nguyen
-* **Obor:** Informační technologie
 
 ---
 
