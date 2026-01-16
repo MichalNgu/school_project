@@ -1,0 +1,98 @@
+{
+  "testdrives": [
+    {
+      "id": "1764787395692-3gc2uqlz8",
+      "name": "michal",
+      "email": "medvidekcz@icloud.com",
+      "phone": "+4202523452345",
+      "model": "Audi A4 40 TFSI",
+      "message": "zkouska funkctnosti",
+      "date": "2200-09-28",
+      "createdAt": "2025-12-03T18:43:15.692Z",
+      "status": "pending"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "1764787425842-j6sx8l0gw",
+      "name": "michal",
+      "email": "medvidekcz@icloud.com",
+      "phone": "2523452345",
+      "model": "Audi A4 40 TFSI",
+      "message": "zkouska funkctnosti",
+      "createdAt": "2025-12-03T18:43:45.842Z",
+      "status": "new",
+      "read": false
+    },
+    {
+      "id": "1764790164795-imztjdxv0",
+      "name": "michal",
+      "email": "medvidekcz@icloud.com",
+      "phone": "2523452345",
+      "model": "Audi Q7",
+      "message": "test test",
+      "createdAt": "2025-12-03T19:29:24.795Z",
+      "status": "new",
+      "read": false
+    },
+    {
+      "id": "1764876810031-b6rzxpi7g",
+      "name": "michal",
+      "email": "medvidekcz@icloud.com",
+      "phone": "2523452345",
+      "model": "Audi A3",
+      "message": "fvdvsdvs",
+      "createdAt": "2025-12-04T19:33:30.031Z",
+      "status": "new",
+      "read": false
+    }
+  ],
+  "newsletter": [],
+  "cookies": [
+    {
+      "id": "1764788983009-rl2ap3c4t",
+      "sessionId": "anonymous",
+      "allowed": true,
+      "timestamp": "2025-12-03T19:09:43.009Z"
+    },
+    {
+      "id": "1764789062924-kx14q0a39",
+      "sessionId": "anonymous",
+      "allowed": true,
+      "timestamp": "2025-12-03T19:11:02.924Z"
+    },
+    {
+      "id": "1764789094500-tcm021pbq",
+      "sessionId": "anonymous",
+      "allowed": true,
+      "timestamp": "2025-12-03T19:11:34.500Z"
+    },
+    {
+      "id": "1764875654545-i0347rolw",
+      "sessionId": "anonymous",
+      "allowed": true,
+      "timestamp": "2025-12-04T19:14:14.545Z"
+    },
+    {
+      "id": "1764875759936-7ad0c3t1v",
+      "sessionId": "anonymous",
+      "allowed": true,
+      "timestamp": "2025-12-04T19:15:59.936Z"
+    },
+    {
+      "id": "1764885568861-3z4bwty2o",
+      "sessionId": "anonymous",
+      "allowed": true,
+      "timestamp": "2025-12-04T21:59:28.861Z"
+    }
+  ],
+  "analytics": {
+    "pageViews": 0,
+    "totalTestDrives": 1,
+    "totalContacts": 3,
+    "totalNewsletter": 0,
+    "visitorsCount": 0,
+    "lastUpdated": "2025-12-04T19:33:30.031Z"
+  },
+  "users": []
+}

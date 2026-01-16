@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auta značky Audi | Prémiové automobily</title>
+    <meta name="description" content="Objevte svět prémiových automobilů Audi. Inovace, výkon a elegance v každém detailu. Prozkoumejte naši nabídku již dnes!">
+    <meta name="keywords" content="Audi, prémiové automobily, luxusní vozy, inovace, technologie, modelová řada, testovací jízda">
+    <link rel="icon" href="../img/audilogo.png" type="image/png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css?v=2.0">
+</head>
+<body class="bg-gray-900 text-gray-100">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-black bg-opacity-95 z-50 shadow-lg nav">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-2 brand">
+                    <a href="#" class="brand-link">
+                        <img src="../img/audilogo.png" alt="Audi logo" class="logo-img h-25 w-25"/>
+                    </a>
+                </div>
+                <div class="flex items-center space-x-4 header-actions">
+                    <div class="hidden md:flex space-x-8 nav-links">
+                        <a href="#aktuality" class="nav-link">Aktuality</a>
+                        <a href="#o-znacce" class="nav-link">O značce</a>
+                        <a href="#modely" class="nav-link">Modelová řada</a>
+                        <a href="#technologie" class="nav-link">Technologie</a>
+                        <a href="#nabidka" class="nav-link">Aktuální nabídka</a>
+                        <a href="#kontakt" class="nav-link">Kontakt</a>
+                    </div>
+                    <button class="md:hidden text-white mobile-toggle">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient pt-32 pb-20 px-6">
+        <div class="container mx-auto text-center">
+            <h1 class="text-5xl md:text-7xl font-bold mb-6">
+                Vorsprung durch <span class="text-red-600">Technik</span>
+            </h1>
+            <p class="text-xl md:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto">
+                Objevte svět prémiových automobilů Audi. Inovace, výkon a elegance v každém detailu.
+            </p>
+            <a href="#nabidka" class="inline-block accent-btn transition duration-300 shadow-lg">Prozkoumejte naši nabídku</a>
+        </div>
+    </section>
+
+    <!-- aktuality -->
+    <section id="aktuality" class="py-20 px-6 bg-gray-900">
+        <div class="container mx-auto max-w-6xl">
+            <h2 class="text-4xl md:text-5xl font-bold mb-10 text-center">
+                Aktuální <span class="text-red-600">novinky</span>
+            </h2>
+    
+            <p class="text-center text-gray-400 mb-12 max-w-2xl mx-auto">
+                Nejnovější zprávy z automobilového světa.
+            </p>
+    
+            <div id="news-container" class="space-y-6"></div>
+        </div>
+    </section>
+    
+
+    <!-- O značce Audi -->
+    <section id="o-znacce" class="py-20 px-6 bg-gray-800">
+        <div class="container mx-auto max-w-6xl">
+            <h2 class="text-4xl md:text-5xl font-bold mb-12 text-center">O značce <span class="text-red-600">Audi</span></h2>
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <p class="text-lg text-gray-300 mb-6">
+                        Společnost Audi AG je německý výrobce prémiových automobilů se sídlem v Ingolstadtu. Historie značky sahá až do roku 1909, kdy August Horch založil společnost Audi Automobilwerke GmbH.
+                    </p>
+                    <p class="text-lg text-gray-300 mb-6">
+                        Logo čtyř propojených kruhů symbolizuje spojení čtyř automobilových výrobců - Audi, DKW, Horch a Wanderer - které v roce 1932 vytvořily koncern Auto Union.
+                    </p>
+                    <p class="text-lg text-gray-300">
+                        Filozofie značky "Vorsprung durch Technik" (Náskok díky technice) charakterizuje inovativní přístup Audi k vývoji vozidel. Značka je známá svými technologickými inovacemi, luxusním designem a sportovním výkonem.
+                    </p>
+                </div>
+                <div class="bg-gray-700 rounded-lg p-8 shadow-2xl">
+                    <h3 class="text-2xl font-bold mb-6 text-red-600">Klíčové milníky</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <span class="text-red-600 font-bold mr-3">1909</span>
+                            <span class="text-gray-300">Založení společnosti August Horchem</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-red-600 font-bold mr-3">1932</span>
+                            <span class="text-gray-300">Vznik Auto Union (čtyři kruhy)</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-red-600 font-bold mr-3">1980</span>
+                            <span class="text-gray-300">Představení systému quattro</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-red-600 font-bold mr-3">2024</span>
+                            <span class="text-gray-300">Elektrifikace modelové řady</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modelová řada -->
+<section id="modely" class="py-20 px-6 bg-gray-900">
+  <div class="container mx-auto max-w-6xl">
+    <h2 class="text-4xl md:text-5xl font-bold mb-4 text-center">
+      Modelová <span class="text-red-600">řada</span>
+    </h2>
+    <p class="text-center text-gray-400 mb-12 max-w-2xl mx-auto">
+      Kompletní portfolio vozů Audi od kompaktních sedanů po luxusní SUV a elektrické modely
+    </p>
+
+    <div id="models-container" class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- Modely se načtou dynamicky pomocí JS -->
+    </div>
+  </div>
+</section>
+
+    <!-- Technologie -->
+    <section id="technologie" class="py-20 px-6 bg-gray-800">
+        <div class="container mx-auto max-w-6xl">
+            <h2 class="text-4xl md:text-5xl font-bold mb-4 text-center">Technologie <span class="text-red-600">Audi</span></h2>
+            <p class="text-center text-gray-400 mb-12 max-w-2xl mx-auto">
+                Inovativní systémy a technologie, které posouvají hranice automobilového průmyslu
+            </p>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="tech-card rounded-lg p-8 shadow-xl">
+                    <div class="flex items-center mb-4">
+                        <div class="w-8 h-8 bg-red-600 rounded-lg flex items-center justify-center mr-4">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold">quattro</h3>
+                    </div>
+                    <p class="text-gray-300 mb-4">
+                        Legendární systém pohonu všech kol quattro zajišťuje optimální přenos výkonu na všechny čtyři kola za jakýchkoli podmínek. Díky inteligentnímu rozdělování točivého momentu získáte maximální trakci, stabilitu a jízdní dynamiku.
+                    </p>
+                    <button class="tech-info-btn accent-btn px-4 py-2 rounded text-sm" data-tech="quattro">Více informací</button>
+                </div>
+
+                <div class="tech-card rounded-lg p-8 shadow-xl">
+                    <div class="flex items-center mb-4">
+                        <div class="w-8 h-8 bg-red-600 rounded-lg flex items-center justify-center mr-4">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold">Audi MMI</h3>
+                    </div>
+                    <p class="text-gray-300 mb-4">
+                        Multimediální infotainment systém MMI nabízí intuitivní ovládání všech funkcí vozu. Velký dotykový displej, hlasové ovládání a integrace s chytrými telefony zajišťují komfort a bezpečnost během jízdy.
+                    </p>
+                    <button class="tech-info-btn accent-btn px-4 py-2 rounded text-sm" data-tech="mmi">Více informací</button>
+                </div>
+
+                <div class="tech-card rounded-lg p-8 shadow-xl">
+                    <div class="flex items-center mb-4">
+                        <div class="w-8 h-8 bg-red-600 rounded-lg flex items-center justify-center mr-4">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold">Audi AI</h3>
+                    </div>
+                    <p class="text-gray-300 mb-4">
+                        Systémy umělé inteligence Audi AI pomáhají s autonomní jízdou, parkováním a dopravními zácpami. Adaptivní tempomat, asistent jízdního pruhu a prediktivní systémy zajišťují bezpečnější a pohodlnější jízdu.
+                    </p>
+                    <button class="tech-info-btn accent-btn px-4 py-2 rounded text-sm" data-tech="ai">Více informací</button>
+                </div>
+
+                <div class="tech-card rounded-lg p-8 shadow-xl">
+                    <div class="flex items-center mb-4">
+                        <div class="w-8 h-8 bg-red-600 rounded-lg flex items-center justify-center mr-4">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold">Bezpečnost</h3>
+                    </div>
+                    <p class="text-gray-300 mb-4">
+                        Pokročilé bezpečnostní systémy včetně pre sense, emergency brake assist, asistenta mrtvého úhlu a 360° kamer zajišťují maximální ochranu posádky i ostatních účastníků silničního provozu.
+                    </p>
+                    <button class="tech-info-btn accent-btn px-4 py-2 rounded text-sm" data-tech="safety">Více informací</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Info Modal -->
+    <div id="tech-modal" class="hidden fixed inset-0 bg-black bg-opacity-70 z-50 flex items-center justify-center p-4">
+        <div class="bg-gray-900 rounded-lg shadow-2xl max-w-md w-full border border-gray-700">
+            <div class="flex justify-between items-center p-6 border-b border-gray-700">
+                <h3 id="modal-title" class="text-2xl font-bold text-white">Více informací</h3>
+                <button id="close-modal-btn" class="text-gray-400 hover:text-white transition">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="p-6">
+                <p id="modal-content" class="text-gray-300 text-base leading-relaxed mb-6">
+                    Zde jsou další podrobnosti o této technologii.
+                </p>
+                <button id="close-modal-btn-2" class="w-full accent-btn font-semibold py-2 rounded-lg transition">
+                    Zavřít
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Aktuální nabídka -->
+    <section id="nabidka" class="py-20 px-6 bg-gray-900">
+    <div class="container mx-auto max-w-6xl">
+        <h2 class="text-4xl md:text-5xl font-bold mb-4 text-center">
+            Aktuální <span class="text-red-600">nabídka</span>
+        </h2>
+        <p class="text-center text-gray-400 mb-12 max-w-2xl mx-auto">
+            Skladové vozy připravené k okamžitému odběru se speciálními cenami
+        </p>
+
+        <!-- Nabídky se budou načítat dynamicky přes JS -->
+        <div id="offers-container" class="space-y-6">
+        </div>
+        </div>
+        </section>
+
+
+
+    <!-- Kontakt / Testovací jízda -->
+    <section id="kontakt" class="py-20 px-6 bg-gray-800">
+        <div class="container mx-auto max-w-4xl">
+            <h2 class="text-4xl md:text-5xl font-bold mb-4 text-center">Kontaktujte <span class="text-red-600">nás</span></h2>
+            <p class="text-center text-gray-400 mb-12">
+                Máte zájem o testovací jízdu nebo potřebujete více informací? Napište nám!
+            </p>
+
+            <div class="grid md:grid-cols-2 gap-12">
+                <div>
+                    <h3 class="text-2xl font-bold mb-6">Kontaktní údaje</h3>
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <svg class="w-6 h-6 text-red-600 mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                            </svg>
+                            <div>
+                                <p class="font-semibold">Adresa</p>
+                                <p class="text-gray-400">30 Liberec 30 CZ,<br> Tanvaldská 1585,<br> 463 11 Liberec</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <svg class="w-6 h-6 text-red-600 mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                            </svg>
+                            <div>
+                                <p class="font-semibold">Telefon</p>
+                                <a href="tel:+420234567890" class="text-red-600 hover:text-red-900 transition-colors duration-200">
+                                    +420 234 567 890
+                                </a>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <svg class="w-6 h-6 text-red-600 mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                            </svg>
+                            <div>
+                                <p class="font-semibold">Email</p>  
+                                <a href="mailto:info@audi-centrum.cz" class="text-red-600 hover:text-red-900 transition-colors duration-200">
+                                    info@audi-centrum.cz
+                                </a>
+                            </div>
+                        </div>
+                        <div class="mt-8">
+                            <h3 class="text-2xl font-bold mb-4">Kde nás najdete</h3>
+                            <div class="w-full h-64 rounded-lg overflow-hidden shadow-lg border border-gray-700">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d456719.9947953048!2d14.555062452720096!3d50.77473280457447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470934374390535b%3A0x91bbeeffce7a122f!2sAudi%20Louda%20Auto%20Liberec%20(autorizovan%C3%BD%20prodej%20a%20servis)!5e0!3m2!1scs!2scz!4v1764880778351!5m2!1scs!2scz" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Formulář -->
+                <form id="contact-form" class="bg-gray-900 p-8 rounded-lg shadow-xl space-y-6">
+                    <div>
+                        <label class="block font-semibold mb-2">Jméno a příjmení *</label>
+                        <input type="text" name="name" required
+                               class="w-full p-3 rounded bg-gray-800 border border-gray-700 focus:outline-none focus:border-red-600 text-gray-100">
+                    </div>
+
+                    <div>
+                        <label class="block font-semibold mb-2">E-mail *</label>
+                        <input type="email" name="email" required
+                               class="w-full p-3 rounded bg-gray-800 border border-gray-700 focus:outline-none focus:border-red-600 text-gray-100">
+                    </div>
+
+                    <div>
+                        <label class="block font-semibold mb-2">Telefon</label>
+                        <input type="tel" name="phone"
+                               class="w-full p-3 rounded bg-gray-800 border border-gray-700 focus:outline-none focus:border-red-600 text-gray-100">
+                    </div>
+                    <div>
+                        <label class="block font-semibold mb-2">Preferovaný model</label>
+                        <select name="model" class="w-full p-3 rounded bg-gray-800 border border-gray-700 focus:outline-none focus:border-red-600 text-gray-100">
+                            <option value="" disabled selected>Vyberte model</option>
+                            <option value="Audi A3">Audi A3</option>
+                            <option value="Audi A4">Audi A4</option>
+                            <option value="Audi A6">Audi A6</option>
+                            <option value="Audi Q7">Audi Q7</option>
+                            <option value="Audi e-tron GT">Audi e-tron GT</option>
+                            <option value="Audi RS6 Avant">Audi RS6 Avant</option>
+                            <option value="Audi A4 40 TFSI">Audi A4 40 TFSI</option>
+                            <option value="Audi Q5 45 TFSI quattro">Audi Q5 45 TFSI quattro</option>
+                            <option value="Audi A5 40 TFSI quattro">Audi A5 40 TFSI quattro</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block font-semibold mb-2">Zpráva *</label>
+                        <textarea name="message" rows="4" required
+                                  class="w-full p-3 rounded bg-gray-800 border border-gray-700 focus:outline-none focus:border-red-600 text-gray-100"></textarea>
+                    </div>
+
+                    <button type="submit" class="w-full accent-btn font-semibold py-3 rounded-lg transition">
+                        Odeslat zprávu
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cookie Banner -->
+    <div id="cookie-banner" class="hidden fixed bottom-0 left-0 right-0 bg-gray-800 border-t border-gray-700 z-40 p-6 shadow-lg">
+        <div class="container mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+            <div class="flex-1">
+                <h3 class="font-semibold text-lg mb-2">Cookies a Soukromí</h3>
+                <p class="text-gray-300 text-sm">Používáme cookies k vylepšení vašeho zážitku. Kliknutím na "Přijmout" souhlasíte s našimi podmínkami.</p>
+            </div>
+            <div class="flex gap-3 whitespace-nowrap">
+                <button id="cookie-deny" class="px-6 py-2 rounded border border-gray-600 text-gray-100 hover:bg-gray-700 transition font-semibold">
+                    Odmítnout
+                </button>
+                <button id="cookie-accept" class="accent-btn px-6 py-2 rounded font-semibold">
+                    Přijmout vše
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-black py-8 text-center text-gray-500">
+        <p>© 2025 Auta značky Audi Webový projekt | Michal Nguyen</p>
+        <p class="text-sm mt-2">Vytvořeno jako školní projekt s využitím Tailwind CSS</p>
+    </footer>
+
+    <script type="module" src="api.js"></script>
+    <script src="main.js"></script>
+    <script src="car.js"></script>
+</body>
+</html>

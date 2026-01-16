@@ -1,0 +1,47 @@
+[
+  {
+    "id": "audi-a4-40-tfsi",
+    "name": "Audi A4 40 TFSI",
+    "year": 2024,
+    "type": "Sedan",
+    "fuel": "Benzín",
+    "transmission": "Automatická",
+    "power": "150 kW (204 k)",
+    "consumption": "5.8 l/100km",
+    "color": "Mythos černá metalíza",
+    "equipment": "S line",
+    "price": "1 149 000 Kč",
+    "stock": "poslední kus",
+    "image": "../img/audia4tfsi.png"
+  },
+  {
+    "id": "audi-q5-45-tfsi-quattro",
+    "name": "Audi Q5 45 TFSI quattro",
+    "year": 2024,
+    "type": "SUV",
+    "fuel": "Benzín",
+    "transmission": "Automatická",
+    "power": "183 kW (249 k)",
+    "consumption": "7.2 l/100km",
+    "color": "Ledová stříbrná metalíza",
+    "equipment": "Advanced",
+    "price": "1 649 000 Kč",
+    "stock": "Skladem",
+    "image": "../img/audiq5.png"
+  },
+  {
+  "id": "audi-a5-40-tfsi-quattro",
+  "name": "Audi A5 40 TFSI quattro",
+  "year": 2024,
+  "type": "Kupé",
+  "fuel": "Benzín",
+  "transmission": "Automatická",
+  "power": "180 kW (245 k)",
+  "consumption": "6.8 l/100km",
+  "color": "Mythos černá metalíza",
+  "equipment": "Advanced",
+  "price": "1 499 000 Kč",
+  "stock": "Skladem",
+  "image": "../img/audia5.png"
+  }
+]
